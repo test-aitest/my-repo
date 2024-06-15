@@ -1,8 +1,8 @@
-name: Conditions
-on: push
-jobs:
-  skip-or-run:
-    runs-on: ubuntu-latest
-    steps:
-      - if: ${{ contains(github.run_id, '1') }} # ワークフロー実行IDで分岐
-        run: echo "Hello"
+# name: Conditions
+# on: push
+# jobs:
+#   skip-or-run:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - if: ${{ contains(github.run_id, '1') }} # ワークフロー実行IDで分岐
+#         run: echo "Hello"
